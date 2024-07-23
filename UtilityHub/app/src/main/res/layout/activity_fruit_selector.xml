@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fruit Selector"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Spinner
+        android:id="@+id/fruitSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/fruitInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a fruit to see its info"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/addFruitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Fruit"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/newFruitInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new fruit"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>
